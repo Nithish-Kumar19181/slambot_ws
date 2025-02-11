@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<robot name="slambot" xmlns:xacro="https://www.ros.org/wiki/xacro">
+
+    <link name="base_print">
+        <inertial>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <mass value="0.01"/> 
+        <inertia ixx="1e-6" iyy="1e-6" izz="1e-6" ixy="0.0" iyz="0.0" ixz="0.0"/>
+        </inertial>
+    </link>
+
+    <link name="wheel_right_1">
+        <inertial>
+            <origin xyz="1.5076067352657318e-05 7.3241169928195405e-06 0.019818687687401495" rpy="0.0 -0.0 0.0" />
+            <mass value="1.645228262952039" />
+            <inertia ixx="0.002148300197711256" iyy="0.0021282612407535" izz="0.0038296195086362714" ixy="1.6867837979647748e-06" iyz="1.3110010486927504e-07" ixz="3.7405649806754315e-07" />
+        </inertial>
+        <visual name="wheel_left_1_visual">
+            <origin xyz="-0.0019308710066898093 0.12391728320851446 0.06879633311020772" rpy="-1.8163420373652984e-16 -1.5707963184678997 0" />
+            <geometry>
+                <mesh filename="package://slambot_description/meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="wheel_left_1_collision">
+            <origin xyz="-0.0019308710066898093 0.12391728320851446 0.06879633311020772" rpy="-1.8163420373652984e-16 -1.5707963184678997 0" />
+            <geometry>
+                <mesh filename="package://slambot_description/meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="wheel_right_2">
+        <inertial>
+            <origin xyz="7.317228266963127e-06 -1.5076636333768434e-05 0.019818682761753442" rpy="0.0 3.877409121342317e-26 0.0" />
+            <mass value="1.645228262952039" />
+            <inertia ixx="0.002128261240751355" iyy="0.0021483001977119186" izz="0.0038296195086379692" ixy="-1.686783794975277e-06" iyz="-3.740580174670456e-07" ixz="1.310860182532444e-07" />
+        </inertial>
+        <visual name="wheel_left_1_visual">
+            <origin xyz="0.12391727591431635 0.0019308703938564786 0.06879632921211794" rpy="-1.5707963267948968 -1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="package://slambot_description/meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="wheel_left_1_collision">
+            <origin xyz="0.12391727591431635 0.0019308703938564786 0.06879632921211794" rpy="-1.5707963267948968 -1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="package://slambot_description/meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="wheel_left_1">
+        <inertial>
+            <origin xyz="-5.660306794741388e-06 1.5778119993448138e-05 0.019818682132024642" rpy="0.0 -0.0 0.0" />
+            <mass value="1.645228262952039" />
+            <inertia ixx="0.002128132283423248" iyy="0.002148429155046247" izz="0.003829619508631742" ixy="4.944079624738876e-07" iyz="3.859982736324763e-07" ixz="-9.010409399851094e-08" />
+        </inertial>
+        <visual name="wheel_left_1_visual">
+            <origin xyz="-0.12340647919376618 0.011404477249411632 0.0687963285985932" rpy="1.4630634883227862 -1.5707963184678988 0" />
+            <geometry>
+                <mesh filename="package://slambot_description/meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="wheel_left_1_collision">
+            <origin xyz="-0.12340647919376618 0.011404477249411632 0.0687963285985932" rpy="1.4630634883227862 -1.5707963184678988 0" />
+            <geometry>
+                <mesh filename="package://slambot_description/meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="wheel_left_2">
+        <inertial>
+            <origin xyz="1.0787042592221852e-05 -1.2824472276742327e-05 0.01981868828934431" rpy="0.0 -0.0 0.0" />
+            <mass value="1.645228262952039" />
+            <inertia ixx="0.0021302648953452352" iyy="0.002146296543111558" izz="0.003829619508644364" ixy="-6.243537138013282e-06" iyz="-3.3053695549633416e-07" ixz="2.1871792152752811e-07" />
+        </inertial>
+        <visual name="wheel_left_1_visual">
+            <origin xyz="0.11966893182512152 0.03222679339539846 0.06879633472309277" rpy="-1.3233181107454526 -1.5707963182560236 0" />
+            <geometry>
+                <mesh filename="package://slambot_description/meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="wheel_left_1_collision">
+            <origin xyz="0.11966893182512152 0.03222679339539846 0.06879633472309277" rpy="-1.3233181107454526 -1.5707963182560236 0" />
+            <geometry>
+                <mesh filename="package://slambot_description/meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="base_link">
+        <inertial>
+            <origin xyz="-0.3285374521140141 -0.04261270124499695 0.22421992343670252" rpy="0.0 0.0 0.0" />
+            <mass value="12.035104403469955" />
+            <inertia ixx="0.09987564319953268" iyy="0.0701904372422229" izz="0.1530253149007591" ixy="-0.0002232775660089192" iyz="-0.007924216076049165" ixz="0.0003881066034801177" />
+        </inertial>
+        <visual name="base_link_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://slambot_description/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="base_link_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://slambot_description/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="base_joint" type="fixed">
+        <parent link="base_print"/>
+        <child link="base_link"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </joint>
+    <joint name="base_link_Revolute-5" type="continuous">
+        <origin xyz="-0.19344651609983868 0.03729851981785937 0.18644566903411788" rpy="-3.141592653589793 -1.5707963267948957 0" />
+        <parent link="base_link" />
+        <child link="wheel_right_1" />
+        <axis xyz="0.0 -7.924861755898593e-33 1.0" />
+    </joint>
+    <joint name="base_link_Revolute-6" type="continuous">
+        <origin xyz="-0.1934465160998387 -0.16295148018214062 0.18644566903411788" rpy="-3.141592653589793 -1.5707963267948957 0" />
+        <parent link="base_link" />
+        <child link="wheel_right_2" />
+        <axis xyz="-8.326999468188856e-09 -1.0339757742124363e-25 1.0" />
+    </joint>
+    <joint name="base_link_Revolute-7" type="continuous">
+        <origin xyz="-0.4651465160998386 0.036798519817859365 0.18644566903411794" rpy="3.4694469519536536e-17 -1.5707963267948957 0" />
+        <parent link="base_link" />
+        <child link="wheel_left_1" />
+        <axis xyz="0.0 -7.924861755898593e-33 1.0" />
+    </joint>
+    <joint name="base_link_Revolute-8" type="continuous">
+        <origin xyz="-0.46514651609983865 -0.1632014801821406 0.18744566903411794" rpy="3.4694469519536536e-17 -1.5707963267948957 0" />
+        <parent link="base_link" />
+        <child link="wheel_left_2" />
+        <axis xyz="0.0 -7.924861755898593e-33 1.0" />
+    </joint>
+
+    <xacro:include filename="$(find slambot_description)/urdf/slambot_ros2_control.xacro"/>
+    <xacro:include filename="$(find slambot_description)/urdf/slambot_gazebo.xacro"/>
+
+</robot>

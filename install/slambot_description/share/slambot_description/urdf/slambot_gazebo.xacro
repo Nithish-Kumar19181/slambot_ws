@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<robot name="slambot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <gazebo reference="base_link">
+        <mu1>100000000000000</mu1>
+        <mu2>100000000000000</mu2>
+        <self_collide>true</self_collide>
+        <fdir1>1 0 0</fdir1>
+        <kp>1000000</kp>
+        <kd>10.0</kd>
+        <maxVel>0.1</maxVel>  
+    </gazebo>
+
+      <gazebo reference="wheel_right_1">
+        <mu1>100000000000000</mu1>
+        <mu2>100000000000000</mu2>
+        <self_collide>true</self_collide>
+        <fdir1>1 0 0</fdir1>
+        <kp>1000000</kp>
+        <kd>10.0</kd>
+        <maxVel>0.1</maxVel>  
+    </gazebo>
+
+      <gazebo reference="wheel_right_2">
+        <mu1>100000000000000</mu1>
+        <mu2>100000000000000</mu2>
+        <self_collide>true</self_collide>
+        <fdir1>1 0 0</fdir1>
+        <kp>1000000</kp>
+        <kd>10.0</kd>
+        <maxVel>0.1</maxVel>  
+    </gazebo>
+
+
+      <gazebo reference="wheel_left_1">
+        <mu1>100000000000000</mu1>
+        <mu2>100000000000000</mu2>
+        <self_collide>true</self_collide>
+        <fdir1>1 0 0</fdir1>
+        <kp>1000000</kp>
+        <kd>10.0</kd>
+        <maxVel>0.1</maxVel>  
+    </gazebo>
+
+      <gazebo reference="wheel_left_2">
+        <mu1>100000000000000</mu1>
+        <mu2>100000000000000</mu2>
+        <self_collide>true</self_collide>
+        <fdir1>1 0 0</fdir1>
+        <kp>1000000</kp>
+        <kd>10.0</kd>
+        <maxVel>0.1</maxVel>  
+    </gazebo>
+
+</robot>

@@ -1,0 +1,7 @@
+setup.py
+slambot_controller/__init__.py
+slambot_controller/simple_controller.py
+slambot_controller.egg-info/PKG-INFO
+slambot_controller.egg-info/SOURCES.txt
+slambot_controller.egg-info/dependency_links.txt
+slambot_controller.egg-info/top_level.txt
