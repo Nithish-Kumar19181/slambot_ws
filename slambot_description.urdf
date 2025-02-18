@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="slambot_description">
+    <link name="wheel_left_1">
+        <inertial>
+            <origin xyz="1.5085101470333484e-05 7.3239348521880744e-06 0.01981868378724023" rpy="0.0 -0.0 0.0" />
+            <mass value="1.645228262952039" />
+            <inertia ixx="0.00214830019771127" iyy="0.0021282612407535102" izz="0.0038296195086362644" ixy="1.6867837979630401e-06" iyz="1.3110010487274448e-07" ixz="3.74056498062339e-07" />
+        </inertial>
+        <visual name="wheel_left_1_visual">
+            <origin xyz="-0.001930861972572089 0.12391728302637381 0.06879632921004646" rpy="-3.6082248300317592e-16 -1.5707963184678997 0" />
+            <geometry>
+                <mesh filename="meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="wheel_left_1_collision">
+            <origin xyz="-0.001930861972572089 0.12391728302637381 0.06879632921004646" rpy="-3.6082248300317592e-16 -1.5707963184678997 0" />
+            <geometry>
+                <mesh filename="meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="wheel_left_1">
+        <inertial>
+            <origin xyz="1.4381930527562759e-05 8.611418950366101e-06 0.019818686661914667" rpy="0.0 3.877409121342317e-26 0.0" />
+            <mass value="1.645228262952039" />
+            <inertia ixx="0.0021478550723880176" iyy="0.0021287063660752263" izz="0.003829619508637947" ixy="3.4010219382171563e-06" iyz="1.6318850072435069e-07" ixz="3.6120971448683167e-07" />
+        </inertial>
+        <visual name="wheel_left_1_visual">
+            <origin xyz="-0.01272362466682969 0.12327745484399617 0.06879633311227916" rpy="0.08726646259971675 -1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="wheel_left_1_collision">
+            <origin xyz="-0.01272362466682969 0.12327745484399617 0.06879633311227916" rpy="0.08726646259971675 -1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="wheel_left_1">
+        <inertial>
+            <origin xyz="-5.66127267691563e-06 1.5778302134137333e-05 0.01981868603218615" rpy="0.0 -0.0 0.0" />
+            <mass value="1.645228262952039" />
+            <inertia ixx="0.0021281322834232203" iyy="0.0021484291550462192" izz="0.0038296195086317403" ixy="4.944079624730202e-07" iyz="3.8599827363594574e-07" ixz="-9.010409399504149e-08" />
+        </inertial>
+        <visual name="wheel_left_1_visual">
+            <origin xyz="-0.12340648015964835 0.011404477431552262 0.06879633249875465" rpy="1.4630634883227867 -1.5707963184678988 0" />
+            <geometry>
+                <mesh filename="meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="wheel_left_1_collision">
+            <origin xyz="-0.12340648015964835 0.011404477431552262 0.06879633249875465" rpy="1.4630634883227867 -1.5707963184678988 0" />
+            <geometry>
+                <mesh filename="meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="wheel_left_1">
+        <inertial>
+            <origin xyz="1.079607670996019e-05 -1.2824654417347148e-05 0.019818684389183244" rpy="0.0 -0.0 0.0" />
+            <mass value="1.645228262952039" />
+            <inertia ixx="0.002130264895345249" iyy="0.002146296543111565" izz="0.0038296195086443656" ixy="-6.24353713801068e-06" iyz="-3.305369554972015e-07" ixz="2.187179215257934e-07" />
+        </inertial>
+        <visual name="wheel_left_1_visual">
+            <origin xyz="0.11966894085923922 0.03222679321325782 0.06879633082293167" rpy="-1.323318110745453 -1.5707963182560236 0" />
+            <geometry>
+                <mesh filename="meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="wheel_left_1_collision">
+            <origin xyz="0.11966894085923922 0.03222679321325782 0.06879633082293167" rpy="-1.323318110745453 -1.5707963182560236 0" />
+            <geometry>
+                <mesh filename="meshes/wheel_left_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="base_link">
+        <inertial>
+            <origin xyz="-0.32853745211401425 -0.042612701244996984 0.22421992343670272" rpy="0.0 0.0 0.0" />
+            <mass value="12.035104403469955" />
+            <inertia ixx="0.09987564319953082" iyy="0.07019043724222104" izz="0.15302531490075624" ixy="-0.00022327756600849777" iyz="-0.00792421607604879" ixz="0.00038810660347763515" />
+        </inertial>
+        <visual name="base_link_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="base_link_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="imu_link">
+        <inertial>
+            <origin xyz="1.1007813416341606e-09 2.6650282047846473e-09 0.0014999999775244888" rpy="0.0 -0.0 0.0" />
+            <mass value="0.0054231908530996695" />
+            <inertia ixx="1.0363243937065123e-07" iyy="1.1285222350999793e-07" izz="2.083498766014123e-07" ixy="3.8116482626443515e-21" iyz="-2.879912020664621e-20" ixz="-1.803638076565417e-16" />
+        </inertial>
+        <visual name="imu_link_visual">
+            <origin xyz="0.10275742259001483 0.09757858911188116 -0.3749999998454688" rpy="3.141592653589793 -1.5707963250723287 0" />
+            <geometry>
+                <mesh filename="meshes/imu_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="imu_link_collision">
+            <origin xyz="0.10275742259001483 0.09757858911188116 -0.3749999998454688" rpy="3.141592653589793 -1.5707963250723287 0" />
+            <geometry>
+                <mesh filename="meshes/imu_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="base_link_Revolute-5" type="continuous">
+        <origin xyz="-0.19344652 0.03729852000000006 0.1864456700000001" rpy="-3.141592653589793 -1.5707963267948963 0" />
+        <parent link="base_link" />
+        <child link="wheel_left_1" />
+        <axis xyz="0.0 0.0 1.0" />
+    </joint>
+    <joint name="base_link_Revolute-6" type="continuous">
+        <origin xyz="-0.19344652 -0.16295147999999995 0.18644567000000017" rpy="-1.5707963258943207 -0.10773257257043956 -1.5707963351704537" />
+        <parent link="base_link" />
+        <child link="wheel_left_1" />
+        <axis xyz="8.326999468188856e-09 1.0339757656912844e-25 -1.0" />
+    </joint>
+    <joint name="base_link_Revolute-7" type="continuous">
+        <origin xyz="-0.46514652 0.036798520000000064 0.1864456600000001" rpy="-0.0 -1.5707963267948963 0" />
+        <parent link="base_link" />
+        <child link="wheel_left_1" />
+        <axis xyz="0.0 0.0 1.0" />
+    </joint>
+    <joint name="base_link_Revolute-8" type="continuous">
+        <origin xyz="-0.46514652 -0.16320147999999993 0.18744566000000012" rpy="-0.0 -1.5707963267948963 0" />
+        <parent link="base_link" />
+        <child link="wheel_left_1" />
+        <axis xyz="0.0 0.0 1.0" />
+    </joint>
+    <joint name="base_link_Rigid-9" type="fixed">
+        <origin xyz="-0.32929652 -0.06295147999999992 0.2226953300000001" rpy="-3.3306690738754696e-16 -0.0 0.0" />
+        <parent link="base_link" />
+        <child link="imu_link" />
+    </joint>
+</robot>
